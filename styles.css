@@ -1,0 +1,93 @@
+/* html */
+
+body {
+  background-color: #f67280;
+  text-align: center;
+}
+
+h1 {
+  word-wrap: break-word;
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: #fbe8e7;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffc4d0;
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+/* reuseable */
+
+.titlebox {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.btnbox {
+  width: 70%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.textbox {
+  padding-top: 100px;
+}
+
+/*btn*/
+
+.b1,
+.b2 {
+  padding-bottom: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+.b1 :hover,
+.b2 :hover {
+  color: red;
+}
+
+/************************************ footer *************************/
+a {
+  color: #3F3F3F;
+}
+
+.footlogo {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+.social-logo :hover {
+  color: #A9A9A9;
+  transform: scale(1.4);
+}
+.container-fluid {
+  padding: 7% 15%;
+  width: inherit;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff0f8;
+}
+
+.foottext {
+  font-size: 1.5rem;
+}
